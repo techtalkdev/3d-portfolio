@@ -1,10 +1,11 @@
+import Navbar from "./sections/Navbar"
 
-const Home = () => {
+const App = () => {
   return (
-    <div className="text-3xl text-white-700">
-      <h1>Home</h1>
-    </div>
+    <main className="max-w-7xl mx-auto">
+      <Navbar /> 
+    </main>
   )
 }
 
-export default Home
+export default App 
